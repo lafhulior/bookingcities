@@ -15,7 +15,7 @@ describe('Component: Logo', ()=>{
       </Router>,
     );
 
-    const imgElement = screen.getByAltText('6 cities logo');
+    const imgElement = screen.getByAltText('logo');
     expect(imgElement).toBeInTheDocument();
   });
 
